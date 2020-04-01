@@ -665,8 +665,61 @@ a:focus {
     background-color: #fff;
 }
 
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    align-items: stretch;
+}
+
+.c-footer__logo {
+    height: 32px;
+    padding: 0 16px;
+}
+
+.c-footer__nav {
+}
+
+@media (min-width: 768px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__nav {
+    }
+}
+
+@media (min-width: 992px) {
+    .c-footer {
+    }
+
+    .c-footer__logo {
+    }
+
+    .c-footer__logo .c-logo {
+    }
+
+    .c-footer__nav {
+    }
+}
+
 .text-center {
     padding: 120px 0;
+}
+
+.c-title-icon {
+    display: flex;
+}
+
+.c-title-icon__icon {
+    height: 128px;
+    padding: 0 16px;
 }
 
 /*------------------------------------*\
