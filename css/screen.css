@@ -198,6 +198,10 @@ a:focus {
     display: flow-root;
 }
 
+.o-row—neutral-x-light {
+    background-color: #F7F7F7;
+}
+
 /* size modifiers */
 
 .o-row--lg {
@@ -489,6 +493,10 @@ a:focus {
         display: block;
         flex-grow: 1;
     }
+}
+
+.text-center {
+    padding: 120px 0;
 }
 
 /*------------------------------------*\
